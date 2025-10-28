@@ -1,4 +1,4 @@
-#waf to calculate sq of a number
+#waf to calculate square of a number
 def sqno(n):
     s=n**2
     return s
@@ -14,7 +14,7 @@ a=int(input('temp in celsius:'))
 x=cvertf(a)
 print('temp in f:',x)
 
-#waf area o circle
+#waf area of circle
 def area(r):
     a=3.14*r**2
     return a
@@ -22,7 +22,7 @@ r=int(input('radius:'))
 x=area(r)
 print('area:',x)
 
-#waf mx of 2 no.
+#waf max of 2 no.
 def maxno(a,b):
     if a>b:
         return a
@@ -34,3 +34,4 @@ a=maxno(x,y)
 print('max no.:',a)
     
     
+
